@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>С 8 марта, любимая!</title>
+
+</head>
+<body>
+    <!-- Фоновые элементы -->
+    <div class="background">
+        <div class="gradient-bg"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+    
+    <div class="container">
+        <h1>C 8 марта, моя любимая! <span class="ribbon">🎀</span></h1>
+        <p>Я подготовил для тебя кое что особенное, в этот особенный твой женский день, моя принцесса 👸❤️</p>
+        <!-- <p>Люблю тебя, мой котеночек <span class="heart">❤</span></p> -->
+        <p>Интересно узнать что это? 🤭</p>
+        <p>Тогда быстрее нажимай на кнопку 🥰</p>
+
+        
+        <button class="button" id="openModal">♥️</button>
+
+        
+        <div class="signature">- с любовью Бхимушка ♥️</div>
+    </div>
+    
+    <!-- Модальное окно -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <span class="close-modal" id="closeModal">×</span>
+            <div class="modal-content">
+                <h2 class="modal-title">Для моего котеночка 🎀💘✨</h2>
+
+                <p>Ты знаешь, я самый счатливый человек на этой планете 🥰, потому что у меня есть ты! 
+                    Такая очаровательная, зайка 🐰💗
+
+                    С такой чудесной душой и невероятной красотой ❤️ 
+
+                    
+                    Я даже и представить не мог что, у меня будет такая безуууумно красивая девушка ☺️🙈😩🙈❤️
+                    
+                    Ты самый яркий и прекрасный, ангелочек 🥰🪽💘
+                    
+                    Всегда оставайся такой же искренней, доброй, нежной и заботливой
+                    
+                    Я люблю в тебе все твои качества и все стороны 🥰
+                    Нравится то как ты серьезно и с осознанностью подходишь ко всем вещам, это очень ценное качество, как ты задаешь много вопросов, интересуешься, узнаешь что то , стараешься понять, уточнить 🤭❤️
+                
+                    Нравится в тебе то что ты все делаешь с душой, стараешься сделать на максимум и красиво, это очень чувствуется что ты вкладываешь себя в процесс 😍
+                    То как ты невероятно вкладываешься в слежение Божествам, очень вдохновляет такое служение 🥰❤️
+                    
+                    Нравится твоя забота, как ты заботишься о своей семье, то как ты стараешься сделать что то чтобы им было приятно, и отмечу еще тот факт что обо мне тоже сильно заботишься, задаешь вопросы, снимаешь видео, кружочки, пишешь и говоришь много приятных слов, вдохновляешь меня, заряжаешь 🤭🥰
+                    зажигаешь огонь 😏❤️‍🔥🫦
+                    
+                    Очень ценю то как ты открываешься, ты самый яркий цветочек 🌸, ценю то как ты доверяешь свои чувства, эмоции, переживания 🥺
+                    
+                    Очень нравятся твои взгляды на жизнь, твои ценности, то как ты видишь семью, какой у тебя сценарий отношений 🥰, взгляды на будущее, жизнь 💘
+                    
+                    Ты рисуешь невероятную картину в моей жизни, наполняя её прекрасными красками 🥰
+                    
+                    Ты мне безумно нравишься 🤭🥰, и с каждым днем всё сильнее и сильнее! ❤️
+                    
+                    Люблю тебя всю, от и до, все твои качества, все твои стороны
+                    Люблю любую тебя
+                    И всегда буду любить! ❤️
+                    
+                    И самое главное — это навсегда! ♾️</p>
+                <br>
+                <p>Бесконечно люблю тебя! ❤</p>
+                
+                <!-- Фотогалерея в виде сердца -->
+                <h3 class="gallery-title">The most beautiful Princess</h3>
+                <div class="photo-gallery">
+                    <div class="heart-grid" id="heartGrid">
+                        <!-- Вставьте свои фотографии вручную - шаблон для копирования -->
+                        <!-- Первый ряд (7 ячеек, из них 5 для фото) -->
+                        <div class="empty-cell"></div>
+                        <div class="photo-container">
+                            <img src="./img/photo1.jpeg" alt="Наши моменты 1" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo2.jpg" alt="Наши моменты 2" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="empty-cell"></div>
+                        <div class="photo-container">
+                            <img src="./img/photo3.jpg" alt="Наши моменты 3" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo4.jpg" alt="Наши моменты 4" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="empty-cell"></div>
+                        
+                        <!-- Второй ряд (7 ячеек, все для фото) -->
+                        <div class="photo-container">
+                            <img src="./img/photo5.jpg" alt="Наши моменты 5" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo6.jpg" alt="Наши моменты 6" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo7.jpg" alt="Наши моменты 7" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo8.jpg" alt="Наши моменты 8" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo9.jpg" alt="Наши моменты 9" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo10.jpg" alt="Наши моменты 10" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo11.jpg" alt="Наши моменты 11" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        
+                        <!-- Третий ряд (7 ячеек, все для фото) -->
+                        <div class="photo-container">
+                            <img src="./img/photo12.jpg" alt="Наши моменты 12" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo13.jpg" alt="Наши моменты 13" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo14.jpg" alt="Наши моменты 14" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo15.jpg" alt="Наши моменты 15" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo16.jpg" alt="Наши моменты 16" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo17.jpg" alt="Наши моменты 17" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo18.jpg" alt="Наши моменты 18" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        
+                        <!-- Четвертый ряд (7 ячеек, из них 5 для фото) -->
+                        <div class="empty-cell"></div>
+                        <div class="photo-container">
+                            <img src="./img/photo19.jpg" alt="Наши моменты 19" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo20.jpg" alt="Наши моменты 20" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo21.jpg" alt="Наши моменты 21" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo22.jpg" alt="Наши моменты 22" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo23.jpg" alt="Наши моменты 23" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="empty-cell"></div>
+                        
+                        <!-- Пятый ряд (7 ячеек, из них 3 для фото) -->
+                        <div class="empty-cell"></div>
+                        <div class="empty-cell"></div>
+                        <div class="photo-container">
+                            <img src="./img/photo24.jpg" alt="Наши моменты 24" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo25.jpg" alt="Наши моменты 25" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="photo-container">
+                            <img src="./img/photo26.jpg" alt="Наши моменты 26" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="empty-cell"></div>
+                        <div class="empty-cell"></div>
+                        
+                        <!-- Шестой ряд (7 ячеек, из них 1 для фото) -->
+                        <div class="empty-cell"></div>
+                        <div class="empty-cell"></div>
+                        <div class="empty-cell"></div>
+                        <div class="photo-container">
+                            <img src="./img/photo27.jpg" alt="Наши моменты 27" class="photo">
+                            <span class="photo-ribbon">🎀</span>
+                        </div>
+                        <div class="empty-cell"></div>
+                        <div class="empty-cell"></div>
+                        <div class="empty-cell"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
